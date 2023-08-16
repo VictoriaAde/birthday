@@ -21,6 +21,7 @@
 
 .main {
   padding: 3rem 6rem;
+  overflow-y: scroll;
 }
 .content {
   display: grid;
@@ -68,10 +69,10 @@ h3 {
 
 .mySlides {
   display: none;
+  transition: 3s ease-out;
 }
 .mySlides img {
   width: 85%;
-  height: 500px;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -81,12 +82,12 @@ img {
 
 .fade {
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 @keyframes fade {
   from {
-    opacity: 0.8;
+    opacity: 0.6;
   }
   to {
     opacity: 1;
@@ -134,5 +135,11 @@ img {
     grid-gap: 3rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1022px) {
+  .mySlides img {
+    width: 85%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
 }
