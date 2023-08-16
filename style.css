@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: url(./images/pawel-czerwinski-vjuSjU3Dfm0-unsplash.jpg);
+  background-size: cover;
+  font-family: "Recursive", sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(244, 189, 196, 0.8)); */
+}
+
+.main {
+  padding: 3rem 6rem;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: aliceblue;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 4rem;
+  color: aliceblue;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #f4bac1;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #212224;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.accountInfo {
+  display: none;
+  margin-top: 1rem;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.accountInfo.show {
+  display: block;
+}
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides img {
+  width: 85%;
+  height: 85%;
+  max-height: 85%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+img {
+  width: 100%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .main {
+    padding: 3rem 3rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 3rem 1rem;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 3rem;
+  }
+}
+@media screen and (max-width: 800px) {
+}
