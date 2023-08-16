@@ -41,6 +41,7 @@ h3 {
   font-size: 4rem;
   color: aliceblue;
   margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .btn {
@@ -62,6 +63,8 @@ h3 {
 .accountInfo.show {
   display: block;
 }
+
+/* Slide show */
 .slideshow-container {
   width: 100%;
   height: 100%;
@@ -93,6 +96,52 @@ img {
     opacity: 1;
   }
 }
+
+/* Typewriter */
+.typewriter {
+  font-size: 2.5rem;
+  text-align: left;
+  /* word-wrap: break-word; */
+  white-space: wrap;
+  overflow: hidden;
+  /* border-right: 3px solid #000; */
+  padding-right: 5px;
+  margin-bottom: 3rem;
+}
+#text {
+  color: aliceblue;
+  color: aliceblue;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+#cursor {
+  display: inline-block;
+  width: 8px;
+  height: 24px;
+  background-color: aliceblue;
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1025px) {
   h1 {
     font-size: 2rem;
@@ -104,6 +153,7 @@ img {
     font-size: 2.5rem;
     color: aliceblue;
     margin-bottom: 2rem;
+    font-weight: 400;
   }
 }
 
@@ -121,6 +171,7 @@ img {
     font-size: 2rem;
     color: aliceblue;
     margin-bottom: 2rem;
+    font-weight: 400;
   }
 }
 @media screen and (max-width: 600px) {
