@@ -92,6 +92,7 @@ img {
 
 /* Typewriter */
 .typewriter {
+  height: 150px;
   text-align: left;
   /* word-wrap: break-word; */
   white-space: wrap;
@@ -185,6 +186,9 @@ footer a {
     margin-bottom: 2rem;
     font-weight: 400;
     word-wrap: break-word;
+  }
+  .typewriter {
+    height: 100px;
   }
 }
 @media screen and (max-width: 600px) {
