@@ -7,7 +7,7 @@
 .background {
   width: 100%;
   height: 100%;
-  background: url(./images/pawel-czerwinski-vjuSjU3Dfm0-unsplash.jpg);
+  background: url(https://res.cloudinary.com/freakingspicy/image/upload/v1692268135/birthday/pawel-czerwinski-vjuSjU3Dfm0-unsplash_lyafkv.jpg);
   background-size: cover;
   font-family: "Recursive", sans-serif;
 }
@@ -65,7 +65,7 @@ h1 {
 
 .mySlides {
   display: none;
-  transition: opacity 1s ease-in-out; /* Add transition property */
+  transition: opacity 1s ease-in-out;
 }
 .mySlides img {
   width: 85%;
