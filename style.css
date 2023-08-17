@@ -37,13 +37,12 @@ h1 {
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
-h3 {
+/* h3 {
   font-size: 4rem;
   color: aliceblue;
   margin-bottom: 2rem;
   font-weight: 400;
-}
-
+} */
 .btn {
   background-color: #f4bac1;
   padding: 1rem 2rem;
@@ -99,17 +98,15 @@ img {
 
 /* Typewriter */
 .typewriter {
-  font-size: 2.5rem;
   text-align: left;
   /* word-wrap: break-word; */
   white-space: wrap;
   overflow: hidden;
-  /* border-right: 3px solid #000; */
   padding-right: 5px;
   margin-bottom: 3rem;
 }
 #text {
-  color: aliceblue;
+  font-size: 2.5rem;
   color: aliceblue;
   margin-bottom: 2rem;
   font-weight: 400;
@@ -142,18 +139,20 @@ img {
     opacity: 1;
   }
 }
+
 @media screen and (max-width: 1025px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: aliceblue;
     margin-bottom: 1rem;
     text-transform: uppercase;
   }
-  h3 {
-    font-size: 2.5rem;
+  #text {
+    font-size: 1.8rem;
     color: aliceblue;
     margin-bottom: 2rem;
     font-weight: 400;
+    word-wrap: break-word;
   }
 }
 
@@ -162,16 +161,17 @@ img {
     padding: 3rem 3rem;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: aliceblue;
     margin-bottom: 1rem;
     text-transform: uppercase;
   }
-  h3 {
-    font-size: 2rem;
+  #text {
+    font-size: 1.5rem;
     color: aliceblue;
     margin-bottom: 2rem;
     font-weight: 400;
+    word-wrap: break-word;
   }
 }
 @media screen and (max-width: 600px) {
@@ -184,6 +184,12 @@ img {
     justify-content: center;
     align-items: center;
     grid-gap: 3rem;
+  }
+  h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 1022px) {
