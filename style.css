@@ -193,7 +193,8 @@ footer a {
 }
 @media screen and (max-width: 600px) {
   .main {
-    padding: 3rem 1rem 0;
+    padding: 8rem 1rem 0;
+    text-align: center;
   }
   .content {
     display: grid;
@@ -203,10 +204,13 @@ footer a {
     grid-gap: 3rem;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: aliceblue;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     text-transform: uppercase;
+  }
+  .typewriter {
+    text-align: center;
   }
 }
 @media screen and (min-width: 1022px) {
