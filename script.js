@@ -110,9 +110,9 @@ window.onload = function () {
   var colorThemes = [
     function () {
       return color(
-        (200 * random()) | 0,
-        (200 * random()) | 0,
-        (200 * random()) | 0
+        (250 * random()) | 0,
+        (250 * random()) | 0,
+        (250 * random()) | 0
       );
     },
     function () {
