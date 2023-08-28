@@ -34,11 +34,16 @@ showSlides();
 
 // Typewriter
 const sentences = [
+  "May God's abundant grace and blessings flow over you on this special day.",
+  "May God's light illuminate your path and lead you to greater accomplishments.",
+  "May God's favor open doors and create beautiful opportunities for you.",
   "May the LORD perfect ALL that concerns you.",
   "May your day be filled with Joy, Love and Peace.",
   "May the favors of God surround you like a protective shield.",
-  "May He make his face to shine upon you and be gracious to you.",
-  "May He lift up his countenance upon you and give you peace.",
+  "May the LORD make his face to shine upon you and be gracious to you.",
+  "May the LORD lift up his countenance upon you and give you peace.",
+  "May God's wisdom guide your decisions and His peace guard your heart.",
+  "Wishing you a day filled with God's presence, laughter, and cherished moments.",
 ];
 
 const textElement = document.getElementById("text");

@@ -92,13 +92,13 @@ img {
 
 /* Typewriter */
 .typewriter {
-  height: 150px;
+  height: 200px;
   text-align: left;
   /* word-wrap: break-word; */
   white-space: wrap;
   overflow: hidden;
   padding-right: 5px;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 #text {
   font-size: 2.5rem;
@@ -188,7 +188,7 @@ footer a {
     word-wrap: break-word;
   }
   .typewriter {
-    height: 100px;
+    height: 150px;
   }
 }
 @media screen and (max-width: 600px) {
