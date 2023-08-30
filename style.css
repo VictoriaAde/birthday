@@ -39,12 +39,18 @@ h1 {
 }
 .btn {
   background-color: #f4bac1;
+  background-image: linear-gradient(45deg, #f4bac1, #ff8e96);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
-  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
   color: #212224;
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+.btn:hover {
+  background-image: linear-gradient(45deg, #ff8e96, #f4bac1);
 }
 .accountInfo {
   display: none;
@@ -56,7 +62,16 @@ h1 {
 .accountInfo.show {
   display: block;
 }
-
+.accountInfo p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.horizontalLine {
+  width: 150px;
+  height: 0.01rem;
+  background: #ffffff7e;
+  margin: 0.4rem 0;
+}
 /* Slide show */
 .slideshow-container {
   width: 100%;
@@ -188,7 +203,7 @@ footer a {
     word-wrap: break-word;
   }
   .typewriter {
-    height: 150px;
+    height: 170px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -219,5 +234,10 @@ footer a {
     height: 500px;
     object-fit: cover;
     border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .horizontalLine {
+    margin: 0.4rem auto;
   }
 }
