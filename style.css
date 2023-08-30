@@ -41,13 +41,14 @@ h1 {
   background-color: #f4bac1;
   background-image: linear-gradient(45deg, #f4bac1, #ff8e96);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   letter-spacing: 2px;
   font-size: 1.3rem;
   color: #212224;
   font-weight: bold;
   border: none;
   cursor: pointer;
+  border-radius: 0.2rem;
 }
 .btn:hover {
   background-image: linear-gradient(45deg, #ff8e96, #f4bac1);
